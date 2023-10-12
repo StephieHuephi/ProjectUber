@@ -1,0 +1,425 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid#e0e0e0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0px 0px rgba(0, 0, 0, 0.22);
+  z-index: 10222;
+  height: 72px;
+}
+header .container {
+  height: 100%;
+  box-sizing: border-box;
+}
+header .row {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0 8px;
+}
+.btn {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid#e0e0e0;
+  color: #1d1d1d;
+  text-decoration: none;
+  display: inline;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.basket {
+  margin-left: 27px;
+}
+.enter {
+  display: flex;
+  align-items: center;
+}
+.container {
+  margin: 0 41.5px !important;
+}
+form {
+  display: block;
+  width: 100%;
+  height: 132px;
+  padding: 110px 8px 0 8px;
+}
+input {
+  font-size: 16px;
+  border: none;
+  all: unset;
+  background: transparent;
+  width: 100%;
+  border-bottom: 1px solid #757575;
+}
+.search_block .row {
+  display: flex;
+}
+h2 {
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #1d1d1d;
+  margin: 0;
+  padding: 56px 0 16px 0;
+}
+p {
+  margin: 0 0 0.5em 0;
+}
+.card > p > a {
+  text-decoration: none;
+  font-style: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+  font-weight: 400;
+}
+.food_type {
+  font-style: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #626262;
+}
+.stp_time {
+  font-style: 13px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+.card > img {
+  width: 100%;
+}
+.card {
+  margin-bottom: 36px;
+}
+footer {
+  background-color: #262626;
+}
+hr {
+  opacity: 0.4;
+}
+.footer_logo {
+  margin-top: 50px;
+  margin-bottom: 41px;
+}
+select {
+  position: relative;
+  background-color: #3b3b3b;
+  font-size: 13px;
+  color: #fff;
+  line-height: 16px;
+  border: none;
+  bottom: 14px;
+  width: 150px;
+}
+.lang {
+  background-color: #3b3b3b;
+  height: 40px;
+  width: 227px !important;
+}
+.lang img {
+  padding: 12px 12px 12px 12px;
+}
+.stn_footer .UE_tag {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.stn_footer p {
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.stn_footer a {
+  text-decoration: none;
+}
+.stn_footer {
+  margin-bottom: 30px;
+}
+.dwn_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.dwn_footer a {
+  width: 150px;
+}
+.laws p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.laws a {
+  text-decoration: none;
+}
+.laws {
+  height: 100px;
+}
+.btn_up {
+  display: flex;
+  position: fixed;
+  background-color: #59bd5a;
+  right: 20px;
+  bottom: 5px;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+.hero {
+  height: 437px;
+  padding-top: 72px;
+}
+.hero_img {
+  height: 100%;
+  background: url(assets/restaurant/s-header.jpg);
+  background-size: cover;
+}
+.hero .container {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  margin-left: 49px !important;
+}
+.pushkin_ad {
+  display: flex;
+  position: relative;
+  height: 204px;
+  background-color: #fff;
+  flex-direction: column !important;
+  top: 90px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0px 0px rgba(0, 0, 0, 0.22);
+}
+.pushkin_ad h {
+  font-size: 36px;
+  color: #1d1d1d;
+  font-weight: 400;
+  margin: 10px auto 40px auto;
+}
+.pushkin_ad p {
+  color: #626262;
+  font-size: 14px;
+}
+.waiting {
+  color: #fff;
+  background-color: #262626;
+  border-radius: 16px;
+  width: 100px;
+  height: 32px;
+  font-size: 13px;
+  line-height: 32px;
+}
+.stn_bottom_ad {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 322px;
+  align-items: center;
+  margin-left: 8px;
+}
+.navbar {
+  height: 80px;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+}
+.navbar .container {
+  height: 100%;
+}
+.navbar .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+li {
+  float: left;
+  list-style: none;
+  padding-right: 40px;
+  font-size: 16px;
+}
+ul {
+  padding-left: 8px;
+}
+.appetizer {
+  color: #327430;
+}
+.appet hr {
+  display: none;
+}
+.appet {
+  margin-bottom: 50px;
+}
+.appet .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.food_discrip {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.food_card1 {
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  border-right: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between !important;
+  margin-bottom: 30px;
+  height: 162px;
+  position: relative;
+}
+.food_img {
+  background-size: cover;
+}
+.main_discrip {
+  font-size: 16px;
+  color: #1d1d1d;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 16px;
+}
+.add_discrip {
+  font-size: 13px;
+  color: #626262;
+}
+.pushkin_price {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  flex-basis: 50%;
+  position: absolute;
+  bottom: 2px;
+}
+@media screen and (max-width: 1123px) {
+  .container {
+    margin: 0 !important;
+  }
+  select {
+    width: 115px;
+  }
+  .hero_img {
+    background: url(assets/restaurant/s-header-md.jpg);
+    background-size: cover;
+  }
+  .hero_img .container {
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+	.lang { 
+	max-width: 227px !important;
+	}
+	select {
+		width: 150px;
+	}
+	}
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0 !important;
+  }
+  .basket {
+    display: none;
+  }
+  .lang {
+    width: 180px !important;
+  }
+  .stn_footer {
+    margin: 0;
+  }
+  .laws {
+    height: 30px;
+  }
+  .laws p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .btn_up {
+    width: 64px;
+    height: 64px;
+  }
+  .hero_img {
+    background: url(assets/restaurant/s-header-xs.jpg);
+    background-size: cover;
+    height: 255px;
+  }
+  h {
+    font-size: 24px !important;
+  }
+  .stn_bottom_ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+  }
+  p {
+    margin: 0 0 1em 0;
+  }
+  .hero_img .container {
+    margin-left: 0 !important;
+  }
+  .pushkin_ad {
+    margin-right: 0 !important;
+    box-sizing: border-box;
+  }
+  .navbar {
+    display: none;
+  }
+  .appet h2 {
+    text-align: center;
+    font-size: 22px;
+    padding: 0 0 16px 0;
+  }
+  .appet hr {
+    display: block;
+    width: 50px;
+    background: #757575;
+    margin-bottom: 50px;
+  }
+  .food_card1 {
+    height: 102px;
+    border-top: none;
+    border-left: none;
+  }
+  .food_img img {
+    height: 100%;
+  }
+  .food_img {
+    margin-left: -5px;
+  }
+  .food_discrip {
+    padding-left: 0px;
+    width: 188px !important;
+  }
+  .main_discrip {
+    font-size: 14px;
+    padding-top: 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
